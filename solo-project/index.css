@@ -1,0 +1,53 @@
+p {
+  font-family: Arial;
+  font-weight: 200;
+  position: relative;
+}
+
+h1 {
+  font-family: Arial;
+  color: orange;
+}
+
+.container {
+  min-width: 100vh;
+  min-height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+body {
+  background-image: url("images/background-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.button {
+  width: 64px;
+  height: 28px;
+  background-image: url("images/button.png");
+  background-size: cover;
+  border-radius: 1.5em;
+}
+
+#basketball-img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+#welcome-paragraph-el {
+  color: green;
+  margin-top: 0.01em;
+  font-size: 3em;
+}
+
+#link-page-html {
+  color: red;
+  margin-top: -0.1em;
+  font-size: 2em;
+}
